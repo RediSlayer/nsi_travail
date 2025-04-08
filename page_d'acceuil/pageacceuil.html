@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet Cartographie NSI</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Projet Cartographie NSI</h1>
+            <p class="subtitle">Visualisation des centres sportifs, médicaux et parcs</p>
+        </div>
+    </header>
+    
+    <main>
+        <section class="cards-container">
+            <div class="card" onclick="navigateTo('../indexcs.php')">
+                <div class="card-image" style="background-image: url('images/cs.png');"></div>
+                <div class="card-content">
+                    <h3>Centres Sportifs (CS)</h3>
+                    <p>Explorez les installations sportives de la région</p>
+                </div>
+            </div>
+            
+            <div class="card" onclick="navigateTo('../indexcm.php')">
+                <div class="card-image" style="background-image: url('images/cm.png');"></div>
+                <div class="card-content">
+                    <h3>Centres Médicaux (CM)</h3>
+                    <p>Localisez les établissements de santé près de chez vous</p>
+                </div>
+            </div>
+            
+            <div class="card" onclick="navigateTo('../indexparc.php')">
+                <div class="card-image" style="background-image: url('images/parc.png');"></div>
+                <div class="card-content">
+                    <h3>Parcs </h3>
+                    <p>Découvrez les espaces naturels de votre ville</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="about-section">
+            <h2>À propos du projet</h2>
+            <p>Ce projet NSI explore la cartographie interactive avec Leaflet, intégrant des données géospatiales via une API. L'objectif est de fournir une visualisation claire des différents points d'intérêt dans la région.</p>
+            <div class="tech-logos">
+                <img src="images/leaflet-logo.png" alt="Leaflet" title="Leaflet JS">
+                <img src="images/php-logo.png" alt="PHP" title="PHP">
+                <img src="images/sql-logo.png" alt="SQL" title="Base de données SQL">
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Projet NSI - RediSlayer</p>
+        <p class="credits">Conçu avec ♥ pour la communauté éducative</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
