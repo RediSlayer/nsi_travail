@@ -22,12 +22,13 @@ foreach ($enregistrements as $enregistrement) {
     $c = explode(",", $Position);
     $latitude = $c[0];
     $longitude = substr($c[1], 1);
+    $imagePath = "imagenes/cs" . $n . ".jpg";
 
     $m = "
-var marker$n = L.marker([$latitude, $longitude], {icon: myIcon});
-var popupmarker$n = \"<h1>$Nom</h1><img id='pop$n' src='imagenes/cs$n.jpg' alt='Image' style='width:100px;height:100px;'>\";
-marker$n.addTo(map);
-marker$n.bindPopup(popupmarker$n);
+    var marker$n = L.marker([$latitude, $longitude], {icon: myIcon});
+    var popupmarker$n = \"<h1>$Nom</h1><img id='pop$n' src='$imagePath' alt='Image' style='width:200px;height:200px;cursor:pointer;' onclick='openModal(\\\"$imagePath\\\")'>\";
+    marker$n.addTo(map);
+    marker$n.bindPopup(popupmarker$n);
 ";
 
     $informations .= $m;
