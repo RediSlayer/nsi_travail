@@ -101,7 +101,7 @@ INSERT INTO `cs` (`id`, `Code_Postal`, `Nom`, `Adresse`, `Paroisse`, `Position`,
 (2, 'AD500', 'Poliesportiu d?Andorra', 'Carrer Baixada del Mol?, 24, AD500 Andorre-la-Vieille, Andorre', '5', '42.505205517330346, 1.5164224628113907', NULL),
 (3, 'AD200', 'Centre Esportiu d?Encamp', 'Avinguda de Rouillac, AD200 Encamp, Andorre', '2', '42.53580329357578, 1.5807577413790517', NULL),
 (4, 'AD300', 'Centre Esportiu d\'Ordino', 'Carrer dels C?ms, AD300 Ordino, Andorre', '3', '42.55642276279818, 1.532287910993546', NULL),
-(5, 'AD100', 'Centre esportiu de Canillo', 'Av. Sant Joan de Caselles, AD100 Canillo, Andorre', '1', '42.566566955399345, 1.5979825395296459', NULL),
+(5, 'AD100', 'Centre esportiu de Canillo', 'Av. Sant Joan de Caselles, AD100 Canillo, Andorre', '1', '42.56656492048746, 1.6009885355823277', NULL),
 (6, 'AD600', 'Centre esportiu de Sant Juli? de Loria', 'Avinguda Rocafort, AD600 Sant Juli? de L?ria, Andorre', '6', '42.46582535911463, 1.4922024260331903', NULL);
 
 -- --------------------------------------------------------
